@@ -149,6 +149,16 @@ a {
 
 /*Hero*/
 
+.hero {
+  padding: 200px 452px 280px 452px;
+  text-align: center;
+}
+
+.hero-title {
+  width: 696px;
+  margin-bottom: 30px;
+}
+
 .hero,
 .section-footer {
   background-color: var(--primary-bg-color);
@@ -175,6 +185,12 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+
+  min-width: 200px;
+  min-height: 50px;
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: transparent;
 }
 
 /*main*/
