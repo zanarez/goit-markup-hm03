@@ -8,6 +8,8 @@
   --adrress-color: rgba(255, 255, 255, 0.6);
   --pure-black-color: #000000;
   --card-set-gap: 30px;
+  --shadows: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 p,
@@ -260,6 +262,11 @@ a {
 
 .team {
   display: flex;
+}
+
+.team-item {
+  box-shadow: var(--shadows);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team .team-item:not(:last-child) {
